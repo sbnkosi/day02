@@ -6,13 +6,13 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 11:24:51 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 10:37:28 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 11:23:36 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(void)
+void	ft_print_alphabet(void)
 { 
     char a = 'a';
 	while(a <= 'z')
