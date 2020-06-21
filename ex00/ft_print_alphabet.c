@@ -6,19 +6,24 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 11:24:51 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 11:23:36 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 13:48:38 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_alphabet(void)
 { 
     char a = 'a';
 	while(a <= 'z')
       {
-	write(1, &a, 1);
+	ft_putchar(a);
 	a++;
       }
-	write(1, "\n", 1);
+	ft_putchar("\n");
 }
