@@ -6,13 +6,13 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 10:02:34 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 10:47:23 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 11:36:37 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(int n)
+void	ft_is_negative(int n)
 {
 	char positive = 'P';
 	char negetive = 'N';
