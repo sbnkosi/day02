@@ -6,13 +6,13 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 13:05:42 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 11:01:02 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 11:39:05 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(void)
+void ft_print_comb(void)
 {
 
 char a = '0';
