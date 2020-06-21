@@ -6,7 +6,7 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 10:02:34 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/19 10:17:44 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 10:47:23 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,4 @@ void	ft_putchar(int n)
 		write(1, &positive, 1);
 		write(1, "\n", 1);
 	}
-}
-
-int 	main()
-{
-	ft_putchar(-42);
-	return (0);
 }
