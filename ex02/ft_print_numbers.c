@@ -6,13 +6,13 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 08:41:48 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 10:42:20 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 11:34:13 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(void)
+void	ft_print_numbers(void)
 {
 	char numbers= '0';
 	while(numbers <= '9')
