@@ -6,13 +6,13 @@
 /*   By: sbnkosi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 08:18:33 by sbnkosi           #+#    #+#             */
-/*   Updated: 2020/06/21 10:40:11 by sbnkosi          ###   ########.fr       */
+/*   Updated: 2020/06/21 11:26:39 by sbnkosi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(void)
+void	ft_print_reverse_alphabet(void)
 {
 	char z = 'z';
 	while(z >= 'a')
